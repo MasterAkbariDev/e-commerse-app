@@ -1,0 +1,41 @@
+.Main{
+    padding: 20px 10px;
+}
+
+.Items-div , .Sorting-div{
+    background-color: #F0F8FF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: max-content;
+}
+
+.Items-div{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+
+.Categories-ul{
+    margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+    .Main {
+        flex-direction: column;
+    }
+    .Sorting-div{
+        margin-bottom: 20px;
+    }
+}
+
+.form-check-label{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+@media (min-width: 992px) {
+    .Items-div {
+        margin: 0 10px;
+    }
+}

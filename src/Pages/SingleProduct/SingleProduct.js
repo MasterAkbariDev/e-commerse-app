@@ -34,7 +34,7 @@ const SingleProduct = () => {
                             <LazyLoadImage effect='blur' className='product-image' src={data.image} alt={data.title} />
                         </div>
                         <div className='product-data-div col'>
-                            <div>
+                            <div className='product-data'>
                                 <h4>{data?.title}</h4>
                                 <p><b>Category:</b> {data.category?.toUpperCase()}</p>
                                 <p><b>Price:</b> ${data?.price}</p>
